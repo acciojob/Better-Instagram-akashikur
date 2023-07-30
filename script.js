@@ -1,5 +1,5 @@
 //your code here
-document.addEventListener("DOMContentLoaded", () => {
+
   const divs = document.querySelectorAll(".image");
   let dragSrcEl = null;
 
@@ -50,4 +50,4 @@ document.addEventListener("DOMContentLoaded", () => {
     div.addEventListener("drop", handleDrop, false);
     div.addEventListener("dragend", handleDragEnd, false);
   });
-});
+
